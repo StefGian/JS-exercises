@@ -1,0 +1,28 @@
+div {
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+button {
+  margin-top: 30px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: black;
+  height: 40px;
+  border-radius: 30px;
+}
+
+button:hover {
+  color: white;
+  background-color: red;
+}
+
+#on {
+  margin-left: 40%;
+}
+
+#off {
+  margin-left: 8%;
+}
