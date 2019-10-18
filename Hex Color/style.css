@@ -1,0 +1,36 @@
+body {
+  background-color: tomato;
+  font-family: Arial;
+}
+
+h3 {
+  color: white;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+
+span {
+  background-color: #fff;
+  border: 3px solid black;
+  color: black !important;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button{
+  margin-top: 4%;
+  margin-left: 45%;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  height: 70px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
