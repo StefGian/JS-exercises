@@ -1,0 +1,50 @@
+body {
+  min-height: 100vh;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(data.jpg);
+}
+
+#container {
+  flex: 0 0 70%;
+  text-align: center;
+  border: 4px solid white;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.808);
+}
+
+h1{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#counter {
+  font-size: 6rem;
+}
+
+button {
+  background-color: #fff;
+  color: black;
+  font-size: 2rem;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.5rem 0.25rem;
+  transition: transform .2s; /* Animation */
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#btn1:active {
+  color: red;
+}
+
+#btn2:active {
+  color: rgb(47, 202, 0);
+}
