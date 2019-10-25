@@ -1,0 +1,84 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(92, 0, 46);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(73, 0, 37);
+}
+
+.active {
+  background-color: rgb(73, 0, 37);
+}
+
+#logo {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-right: 70px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(image-0.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex: 0 0 80%;
+  min-height: 100vh;
+  position: relative;
+}
+
+button {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  color: rgb(32, 32, 32);
+  font-size: 1.5rem;
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+}
+
+button:active {
+  color: rgb(90, 90, 90);
+}
+
+#prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+#next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
